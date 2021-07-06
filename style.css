@@ -128,9 +128,11 @@ body{
     padding: 15px;
     border-radius: 14px;
 }
+
 .recipies p{
     font-size: large;
 }
+
 .recipies img{
     width: 100%;
 }
@@ -153,4 +155,26 @@ footer p{
 
 footer h2{
     color: #84817a;
+}
+
+.gallery-area{
+    text-align: center;
+}
+.gallery img{
+    width: 100%;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.gallery{
+    box-shadow: 5px 5px 10px grey;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.gallery-header{
+    text-align: center;
+    color: #636e72;
+    font-size: x-large;
 }
