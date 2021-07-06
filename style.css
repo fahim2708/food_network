@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .flex-container{
@@ -56,25 +57,33 @@ body{
 }
 
 .about{
-    background-image: linear-gradient(rgb(236, 112, 107), rgb(240, 20, 12));
+    background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about-img{
+    display: block;
+    max-width: 400px;
+    width: auto;
+    padding-left: 100px;
 }
 
 .about-header{
     font-size: 50px;
-    color: white;
+    color: #535c68;
 }
 
 .about-p{
     font-size: x-large;
-    color: wheat;
+    color: #808e9b;
     padding-bottom: 15px;
     padding-right: 30px;
     text-align: justify;
 }
 
 .about-div{
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 .my-recipies{
