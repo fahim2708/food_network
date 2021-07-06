@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.half-width img{
+    width: 75%;
+    
+}
+
+.top-header{
+    margin-top: 120px;
+    font-size: 60px;
+    color: #636e72;
+}
+
+#top-header-skip{
+    color: tomato;
+}
+
+.top-header-p{
+    font-size: xx-large;
+    color: #747d8c;
+}
+
+.order-button{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(#e6935b, #ec3f0a); 
+
+}
+
+.contact-button{
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(#ebb38d, #f37650); 
+}
+
+.about{
+    background-image: linear-gradient(rgb(236, 112, 107), rgb(240, 20, 12));
+    background-repeat: no-repeat;
+}
+
+.about-header{
+    font-size: 50px;
+    color: white;
+}
+
+.about-p{
+    font-size: x-large;
+    color: wheat;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.about-div{
+    margin-top: 140px;
+}
+
+.my-recipies{
+    text-align: center;
+}
+
+.my-recipies h1{
+    font-size: 30px;
+    color: #636e72;
+}
+
+.my-recipies p{
+    font-size: 20px;
+    color: #747d8c;
+}
+.recipies{
+    box-shadow: 5px 5px 10px grey;
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 15px;
+    border-radius: 14px;
+}
+.recipies p{
+    font-size: large;
+}
+.recipies img{
+    width: 100%;
+}
+
+footer{
+    background-color: #2f3542;
+    text-align: center;
+    height: 120px;
+    padding-top: 25px;
+}
+
+#footer-header{
+    color: tomato;
+}
+
+footer p{
+    color: white;
+}
+
+footer h2{
+    color: #84817a;
+}
