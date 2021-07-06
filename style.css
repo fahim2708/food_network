@@ -3,6 +3,27 @@ body{
     font-family: 'Oxygen', sans-serif;
 }
 
+.nav-area{
+    background-color: #2f3542;
+}
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+    color: tomato;
+    text-decoration: none;
+    font-size: x-large;
+}
+
 .flex-container{
     display: flex;
     margin-bottom: 80px;
@@ -117,8 +138,9 @@ body{
 footer{
     background-color: #2f3542;
     text-align: center;
-    height: 120px;
-    padding-top: 25px;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #footer-header{
