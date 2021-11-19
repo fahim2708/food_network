@@ -1,4 +1,4 @@
 # food_network
-Live Link: https://food-network-fahim2708.netlify.app
+Live Link: https://food-network-clone.netlify.app/
 
 Technology Used: HTML, CSS
